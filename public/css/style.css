@@ -17,8 +17,11 @@ button{
         flex-direction: column;
     }
     
-    button, object, h1{
+    button {
         width: 250px;
     }   
+    object , #CV {
+        display :none
+    }
 
 }
