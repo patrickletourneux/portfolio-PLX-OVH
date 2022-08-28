@@ -17,7 +17,7 @@ button{
         flex-direction: column;
     }
     
-    button{
+    button, object, h1{
         width: 250px;
     }   
 
