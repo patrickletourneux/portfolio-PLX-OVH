@@ -3,6 +3,7 @@ body{
     width: 500px;
     display: flex;
     flex-direction: column;
+    margin-bottom: 5rem;
 }
 
 button{
@@ -11,17 +12,20 @@ button{
 
 @media (max-width: 499px) {
     body{
-        margin: auto;
         width: 250px;
-        display: flex;
-        flex-direction: column;
     }
     
     button {
         width: 250px;
     }   
     object , #CV {
-        display :none
+        display: none;
     }
 
+}
+
+@media (orientation: landscape) and (max-height : 500px){
+    object , #CV {
+        display: none;
+    }
 }
